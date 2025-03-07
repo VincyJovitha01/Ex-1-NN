@@ -29,12 +29,19 @@ Another aspect is that the data set should be formatted in such a way that more 
 
 
 ## ALGORITHM:
-STEP 1:Importing the libraries<BR>
-STEP 2:Importing the dataset<BR>
-STEP 3:Taking care of missing data<BR>
-STEP 4:Encoding categorical data<BR>
-STEP 5:Normalizing the data<BR>
-STEP 6:Splitting the data into test and train<BR>
+#### STEP 1:
+Import Libraries: Load required libraries like pandas, MinMaxScaler, and train_test_split.<BR>
+#### STEP 2:
+Load Dataset: Read the dataset using pd.read_csv().<BR>
+#### STEP 3:
+Clean Data: Handle missing values, check for duplicates, and inspect outliers with describe(). Drop unnecessary columns.<BR>
+#### STEP 4:
+Normalize Data: Use MinMaxScaler to scale feature values (exclude the target column).
+<BR>
+#### STEP 5:
+Prepare Features and Target: Separate input features (X) and target values (y).<BR>
+#### STEP 6:
+Split Data: Use train_test_split() to divide data into training and testing sets.<BR>
 
 ##  PROGRAM:
 ```
