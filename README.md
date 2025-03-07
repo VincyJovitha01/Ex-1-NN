@@ -96,7 +96,11 @@ print(f"\nTraining data size: {len(X_train)}")
 print(f"Testing data size: {len(X_test)}")
 ```
 ## OUTPUT:
-
+![image](https://github.com/user-attachments/assets/905fc6ed-889d-4aab-bf92-ebeed78cf84e)
+![image](https://github.com/user-attachments/assets/9fc53c5a-da36-4df7-b33d-455748a9c122)
+![image](https://github.com/user-attachments/assets/4dbb48d9-5de5-48b6-a357-bd1b095435a8)
+![image](https://github.com/user-attachments/assets/a0b5e174-b4ba-4664-9bb2-aeb1b1d9b44d)
+![image](https://github.com/user-attachments/assets/18173d71-1be9-4135-a55d-c606e05eadad)
 
 ## RESULT:
 Thus, Implementation of Data Preprocessing is done in python  using a data set downloaded from Kaggle.
